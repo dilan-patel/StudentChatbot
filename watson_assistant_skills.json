@@ -1,0 +1,21 @@
+{
+    "skills": [
+        {
+            "name": "Student Advisor",
+            "intents": [
+                {"intent": "recommend_course", "examples": ["Recommend me a course on {topic}"]}
+            ],
+            "entities": [
+                {"entity": "topic", "values": ["Python", "Data Analysis Tools", "Data Science", "Nanotechnology", "Javascript"]}
+            ],
+            "dialog_nodes": [
+                {
+                    "type": "response",
+                    "title": "Recommend Course",
+                    "conditions": "#recommend_course",
+                    "output": {"text": "Sure! I recommend the course {topic}. Check it out [here](https://www.coursera.org/{topic})."}
+                }
+            ]
+        }
+    ]
+}

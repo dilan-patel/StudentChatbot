@@ -1,0 +1,14 @@
+{
+    "courses": [
+        {
+            "title": "Python Programming",
+            "category": "Programming",
+            "url": "https://www.coursera.org/python-programming"
+        },
+        {
+            "title": "Data Analysis Tools",
+            "category": "Data Science",
+            "url": "https://www.coursera.org/data-analysis-tools"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "greetings": [
+        "Hello! How can I assist you today?",
+        "Hi there! Ready to explore some courses?"
+    ],
+    "thank_you": [
+        "You're welcome! If you have more questions, feel free to ask.",
+        "No problem! If you need further assistance, just let me know."
+    ]
+}
